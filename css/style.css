@@ -1,0 +1,375 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: kumbh-bold;
+  src: url(../font/KumbhSans-Bold.ttf);
+}
+@font-face {
+  font-family: kumbh-Regular;
+  src: url(../font/KumbhSans-Regular.ttf);
+}
+.img-loga {
+  padding-right: 160px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+.navigation {
+  margin-left: 180px;
+  padding-left: 15px;
+  justify-content: space-between;
+  background-color: #5175ff;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.all-header {
+  display: flex;
+}
+.Header {
+  margin-left: 10%;
+  margin-top: 150px;
+}
+.main-header {
+  font-family: kumbh-bold;
+  font-size: 56px;
+}
+.content {
+  font-family: kumbh-Regular;
+  font-size: 18px;
+}
+.start-button {
+  padding: 20px 25px;
+  margin-top: 15px;
+  font-family: kumbh-bold;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background-color: #5175ff;
+  color: #fff;
+}
+.chart-img {
+  margin-left: 10px;
+}
+.three-boxes {
+  justify-content: center;
+  padding: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  position: relative;
+}
+/* box1 */
+.Basic-box:hover {
+  color: #fff;
+  background-color: #5175ff;
+}
+.Basic-box {
+  padding: 50px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  font-family: kumbh-Bold;
+  font: size 18px;
+  margin-left: 165px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.Basic {
+  font-family: kumbh-Bold;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.price-free {
+  font-family: kumbh-Bold;
+  font-size: 56;
+  padding-bottom: 2px;
+}
+.user {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 50px;
+}
+
+.document {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.storage {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.support {
+  font-family: kumbh-Regular;
+  font-size: 16;
+}
+.Try-button:hover {
+  background-color: #fff;
+  color: #ff517d;
+}
+.Try-button {
+  font-family: kumbh-bold;
+  font-size: 16px;
+  margin-top: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 112px;
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  text-transform: capitalize;
+  background-color: #e4eaff;
+  color: #5175ff;
+}
+/* box2 */
+.Pro-box:hover {
+  color: #fff;
+  background-color: #5175ff;
+}
+.Pro-box {
+  padding: 50px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  font-family: kumbh-Bold;
+  font: size 18px;
+  margin-left: 165px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Pro {
+  font-family: kumbh-Bold;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.price-product {
+  font-family: kumbh-Bold;
+  font-size: 56;
+  padding-bottom: 2px;
+}
+.user-bill {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 50px;
+}
+
+.essential {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.storage-GB {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.control {
+  font-family: kumbh-Regular;
+  font-size: 16;
+}
+.Try-for-button:hover {
+  background-color: #fff;
+  color: #ff517d;
+}
+.Try-for-button {
+  font-family: kumbh-bold;
+  font-size: 16px;
+  margin-top: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 112px;
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  text-transform: capitalize;
+  background-color: #e4eaff;
+  color: #5175ff;
+}
+/* box3 */
+.Ultimate-box:hover {
+  color: #fff;
+  background-color: #5175ff;
+}
+.Ultimate-box {
+  padding: 50px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  font-family: kumbh-Bold;
+  font: size 18px;
+  margin-left: 165px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.Ultimate {
+  font-family: kumbh-Bold;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.price-doller {
+  font-family: kumbh-Bold;
+  font-size: 56;
+  padding-bottom: 2px;
+}
+.user-exp {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 50px;
+}
+
+.management {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.storage-100 {
+  font-family: kumbh-Regular;
+  font-size: 16;
+  padding-bottom: 20px;
+}
+.VIP-support {
+  font-family: kumbh-Regular;
+  font-size: 16;
+}
+.Try-for-free-button:hover {
+  background-color: #fff;
+  color: #ff517d;
+}
+.Try-for-free-button {
+  font-family: kumbh-bold;
+  font-size: 16px;
+  margin-top: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 112px;
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  text-transform: capitalize;
+  background-color: #edeff5;
+  color: #5175ff;
+}
+.Times {
+  color: #fff;
+  display: flex;
+  font-family: kumbh-bold;
+  padding-left: 10%;
+  text-align: center;
+}
+.g-vav {
+  text-align: center;
+}
+.coming {
+  color: #fff;
+  margin-left: -1120px;
+  margin-top: -289px;
+}
+.Nav {
+  color: #5175ff;
+}
+.day-shap {
+  border-radius: 10px;
+  margin-top: 51px;
+  margin-left: 32px;
+  padding: 20px;
+  background-color: #333950;
+}
+.one {
+  font-size: 56px;
+}
+.days {
+  margin-top: 15px;
+  font-size: 160x;
+}
+/* 2 */
+.HOUR-shap {
+  border-radius: 10px;
+  margin-top: 51px;
+  margin-left: 32px;
+  padding: 20px;
+  background-color: #333950;
+}
+.HOUR {
+  font-size: 56px;
+}
+.hours {
+  margin-top: 15px;
+  font-size: 160x;
+}
+/* 3 */
+.min-shap {
+  border-radius: 10px;
+  margin-top: 51px;
+  margin-left: 32px;
+  padding: 20px;
+  background-color: #333950;
+}
+.min {
+  font-size: 56px;
+}
+.min-text {
+  margin-top: 15px;
+  font-size: 160x;
+}
+/* 4 */
+.sec-shap {
+  border-radius: 10px;
+  margin-top: 51px;
+  margin-left: 32px;
+  padding: 20px;
+  background-color: #333950;
+}
+.sec {
+  font-size: 56px;
+}
+.sec-text {
+  margin-top: 15px;
+  font-size: 160x;
+}
+.butt-started:hover {
+  background-color: #fff;
+  color: #5175ff;
+}
+.butt-started {
+  font-family: kumbh-bold;
+  font-size: 16px;
+  margin-top: -95px;
+  margin-left: 10px;
+  margin-right: 100px;
+  margin-bottom: 112px;
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  text-transform: capitalize;
+  background-color: #5175ff;
+  color: #e4eaff;
+  float: right;
+  position: relative;
+}
+.mask-img {
+  width: 100%;
+  margin-top: -330px;
+}
